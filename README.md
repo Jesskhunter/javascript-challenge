@@ -24,9 +24,5 @@ In this challenge, I have written a code using JavaScript, HTML, CSS, and D3.js,
 
  - Using multiple input tags and/or select dropdowns, write JavaScript code so the user can to set multiple filters and search for UFO sightings using the following criteria based on the table columns:
 
-    i. date/time
-   ii. city
-  iii. state
-   iv. country
-    v. shape
+     - date/time, city, state, country, shape
 
