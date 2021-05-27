@@ -10,37 +10,23 @@ In this challenge, I have written a code using JavaScript, HTML, CSS, and D3.js,
 
 ### Level 1: Automatic Table and Date Search
 
-* Create a basic HTML web page.[index.html](index.html).
+  - Create a basic HTML web page or use the index.html file provided (we recommend building your own custom page!).
 
-* Using the UFO dataset provided in the form of an array of JavaScript objects, write code that appends a table to your web page and then adds new rows of data for each UFO sighting.
+  - Using the UFO dataset provided in the form of an array of JavaScript objects, write code that appends a table to your web page and then adds new rows of data for each UFO    sighting.
 
-  * Make sure you have a column for `date/time`, `city`, `state`, `country`, `shape`, and `comment` at the very least.
-
-  ![landing](static/images/landing-page.png)
-
-* [JavaScript code](static/js/app.js) that will listen for events and search through the `date/time` column to find rows that match user input.
+    - Make sure you have a column for date/time, city, state, country, shape, and comment at the very least.
+    - 
+ - Use a date form in your HTML document and write JavaScript code that will listen for events and search through the date/time column to find rows that match user input.
 
 ### Level 2: Multiple Search Categories
 
-* Using multiple `input` tags and/or select dropdowns, write JavaScript code so the user can to set multiple filters and search for UFO sightings using the following criteria based on the table columns:
+ - Complete all of Level 1 criteria.
 
-  1. `date/time`
+ - Using multiple input tags and/or select dropdowns, write JavaScript code so the user can to set multiple filters and search for UFO sightings using the following criteria based on the table columns:
 
-  ![datetime](static/images/date-filter.png)
-
-  2. `city`
-
-  ![city](static/images/city-filter.png)
-
-  3. `state`
-
-  ![state](static/images/state-filter.png)
-
-  4. `country`
-
-  ![country](static/images/country-filter.png)
-
-  5. `shape`
-
-  ![shape](static/images/shape-filter.png)
+  i. date/time
+ ii. city
+iii. state
+ iv. country
+  v. shape
 
