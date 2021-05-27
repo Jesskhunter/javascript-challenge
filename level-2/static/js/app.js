@@ -64,7 +64,7 @@ filterType.on("change", function() {
     d3.select("input").attr("placeholder", placeHolder);
     d3.select("label")
       .attr("for",filterValue)
-      .text(`Enter a value for  ${filterValue.toUpperCase()}`);
+      .text(`Enter a value for  ${filterValue.toLowerCase()}`);
 
     
 });
@@ -115,3 +115,5 @@ submit.on("click", function() {
 
 
 })
+
+

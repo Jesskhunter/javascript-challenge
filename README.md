@@ -1,32 +1,46 @@
-# Aliens are Real!!
+# JavaScript and DOM Manipulation
 
-Created a dynamic table based upon a dataset that was provided. Filter was created to the table data for specific values. 
+## Background
 
-## Technology used:
+WAKE UP SHEEPLE! The extra-terrestrial menace has come to Earth and we here at `ALIENS-R-REAL` have collected all of the eye-witness reports we could to prove it! All we need to do now is put this information online for the world to see and then the matter will finally be put to rest.
 
-- JavaScript,
-- HTML
-- CSS
-- D3.js
+In this challenge, I have written a code using JavaScript, HTML, CSS, and D3.js, that will create a table dynamically based upon a [dataset provided](static/js/data.js). Also users are allowed to filter the table data for specific values. 
 
-## Level 1:
+## Tasks
 
-- Using the UFO dataset in the form of an array of JavaScript objects that appends table to web page and then adds new rows of data for       each UFO sighting. Table have a column for date/time, city, state, country, shape, and comment.
-- Date form was used in HTML document and JavaScript was used that would listen for events and search through the date/time column to find   rows that match user input.
+### Level 1: Automatic Table and Date Search
 
-## Level 2:
+* Create a basic HTML web page.[index.html](index.html).
 
-- multiple input tags and dropdown was created, so that user can set multiple filters and search for UFO sightings using the following       criteria based on the table columns:
+* Using the UFO dataset provided in the form of an array of JavaScript objects, write code that appends a table to your web page and then adds new rows of data for each UFO sighting.
 
-  i.	date/time
-  
-  ii.	city
-  
-  iii.	state
-  
-  iv.	country
-  
-  v.	shape
+  * Make sure you have a column for `date/time`, `city`, `state`, `country`, `shape`, and `comment` at the very least.
 
+  ![landing](static/images/landing-page.png)
 
+* [JavaScript code](static/js/app.js) that will listen for events and search through the `date/time` column to find rows that match user input.
+
+### Level 2: Multiple Search Categories
+
+* Using multiple `input` tags and/or select dropdowns, write JavaScript code so the user can to set multiple filters and search for UFO sightings using the following criteria based on the table columns:
+
+  1. `date/time`
+
+  ![datetime](static/images/date-filter.png)
+
+  2. `city`
+
+  ![city](static/images/city-filter.png)
+
+  3. `state`
+
+  ![state](static/images/state-filter.png)
+
+  4. `country`
+
+  ![country](static/images/country-filter.png)
+
+  5. `shape`
+
+  ![shape](static/images/shape-filter.png)
 
